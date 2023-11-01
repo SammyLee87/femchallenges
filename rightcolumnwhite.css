@@ -1,0 +1,196 @@
+/* Right Column White */
+.right-column-white{
+    height: 512px;
+    width: 700px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: right;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    border-radius:  25px 25px 25px 25px;
+    /* transform: translateX(-25%); */
+    order: 1;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+.catagory-wrapper > .heading{
+    padding-top: 25px;
+}
+.catagory-wrapper > .catagory-results {
+    width: 310px;
+    align-items: center;
+
+}
+
+/* REACTION RESULTS */
+.catagory-wrapper > .catagory-results >.reaction{
+    height: 30px;
+    background-color: #feeced;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.catagory-wrapper > .catagory-results >.reaction i{
+    color: #c33e47;
+    margin-right: 20px;
+}
+.catagory-wrapper > .catagory-results >.reaction >.text{
+    display: grid;
+    grid-template-columns: 8fr 1.5fr 1.1fr;
+    letter-spacing: 2px;
+}
+.catagory-wrapper > .catagory-results >.reaction >.text >.title{
+    color: #c33e47;
+    font-weight: 500;
+    
+}
+.catagory-wrapper > .catagory-results >.reaction >.text :nth-child(2){
+    color:#11122b; 
+    font-weight: 550;
+}
+.catagory-wrapper > .catagory-results >.reaction >.text :nth-child(3){
+    color:#11122b; 
+    opacity: 0.5; 
+    font-weight: 550;
+}
+
+/* MEMORY RESULTS */
+.catagory-wrapper > .catagory-results >.memory{
+    height: 30px;
+    background-color: #faf4e6;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.catagory-wrapper > .catagory-results >.memory i{
+    color: #f3c65e;
+    margin-right: 20px;
+}
+.catagory-wrapper > .catagory-results >.memory >.text{
+    display: grid;
+    grid-template-columns: 8fr 1.5fr 1.1fr;
+    color: #f3c65e;
+    letter-spacing: 2px;
+}
+.catagory-wrapper > .catagory-results >.memory >.text >.title{
+    color: #f3c65e;
+    font-weight: 500;
+}
+
+.catagory-wrapper > .catagory-results >.memory >.text :nth-child(2){
+    color:#11122b; 
+    font-weight: 550;
+}
+.catagory-wrapper > .catagory-results >.memory >.text :nth-child(3){
+    color:#11122b; 
+    opacity: 0.5; 
+    font-weight: 550;
+}
+
+/* Verbal Results */
+.catagory-wrapper > .catagory-results >.verbal{
+    height: 30px;
+    background-color: #dbfbf2;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.catagory-wrapper > .catagory-results >.verbal i{
+    color: #32a98a;
+    margin-right: 20px;
+}
+.catagory-wrapper > .catagory-results >.verbal >.text{
+    display: grid;
+    grid-template-columns: 8fr 1.5fr 1.1fr;
+    color: #32a98a;
+    letter-spacing: 2px;
+   
+}
+.catagory-wrapper > .catagory-results >.verbal >.text >.title{
+    color: #32a98a;
+    font-weight: 500;
+}
+
+.catagory-wrapper > .catagory-results >.verbal >.text :nth-child(2){
+    color:#11122b; 
+    font-weight: 550;
+}
+.catagory-wrapper > .catagory-results >.verbal >.text :nth-child(3){
+    color:#11122b; 
+    opacity: 0.5; 
+    font-weight: 550;
+}
+
+/* Visual Results */
+.catagory-wrapper > .catagory-results >.visual{
+    height: 30px;
+    background-color: #e5e7fc;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.catagory-wrapper > .catagory-results >.visual i{
+    color: #2C3BB2;
+    margin-right: 20px;
+}
+.catagory-wrapper > .catagory-results >.visual >.text{
+    display: grid;
+    grid-template-columns: 8fr 1.5fr 1.1fr;
+    color: #2C3BB2;
+    letter-spacing: 2px;
+    
+}
+.catagory-wrapper > .catagory-results >.visual >.text >.title{
+    color: #2C3BB2;
+    font-weight: 500;
+}
+
+.catagory-wrapper > .catagory-results >.visual >.text :nth-child(2){
+    color:#11122b; 
+    font-weight: 550;
+}
+.catagory-wrapper > .catagory-results >.visual >.text :nth-child(3){
+    color:#11122b; 
+    opacity: 0.5; 
+    font-weight: 550;
+}
+
+/* Button to Nowhere */
+ .button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    transition: 0.1s;
+    height: 40px;
+    width: 300px;
+    background-color: #161d58;
+    border: 1px solid #161d58;
+    color: white;
+    text-decoration: none;
+}
+.button a:hover{
+    background-image: linear-gradient(to top, 
+    #2C3BB2,#3b52fd);
+    border: 1px transparent;
+}
+.button a:active{
+    background-color: white;
+    border: white;   
+}

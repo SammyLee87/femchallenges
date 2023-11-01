@@ -1,0 +1,16 @@
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-transform: capitalize;
+    height: 100%;
+    width: 100%;
+  
+}
+.page-container {
+    padding: 200px 2000px 200px 200px;
+    display: grid;
+    grid-template-columns: 0.1fr 0.1fr;
+
+}
+.spacer{
+    width: 368px;
+}
